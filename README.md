@@ -1,1 +1,2 @@
-# c-sharp-file-manager
+# Under constuction
+На текущий момент разработка не завершена
