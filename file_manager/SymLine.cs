@@ -5,10 +5,13 @@ namespace file_manager
 
     public class SymLine: Figure
     {
-        /*Горизонтальная линия, создается слева направо*/
+        /*
+         Горизонтальная линия создается слева-направо
+         Вертикальная линия создается сверху-вниз
+         */
         
-        int len;
-        LineType dir;
+        protected int len;
+        protected LineType dir;
 
         public SymLine(char sym, int x, int y, int len, LineType _dir = LineType.Horizontal)
         {

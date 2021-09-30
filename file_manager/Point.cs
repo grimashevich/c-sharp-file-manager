@@ -4,9 +4,9 @@ namespace file_manager
 {
     public class Point
     {
-        char sym;
-        int x;
-        int y;
+        public char sym;
+        public int x;
+        public int y;
         
         public Point(int x, int y, char sym)
         {

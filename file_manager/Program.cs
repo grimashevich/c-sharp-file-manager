@@ -6,12 +6,11 @@ namespace file_manager
     {
         static void Main(string[] args)
         {
-
-            for (int i = 0; i < 10; i++)
-            {
-                var sq = new SymRectangle(5 + i, 5 + i, 10, 10);
-                sq.Draw();
-            }
+            var sq = new SymRectangle(3, 3, 50, 20);
+            var l1 = new SymLineIn('║', 43, 3, 20, LineType.Vertical);
+            
+            sq.Draw();
+            l1.Draw();
             Console.ReadKey();
             
         }
